@@ -1,6 +1,6 @@
 //trying to keep db separate
 
-const sql = require('mysql')
+var sql = require('mysql')
 
 conn = sql.createConnection({
     host: "127.0.0.1",
